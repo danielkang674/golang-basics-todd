@@ -2,13 +2,13 @@ package main
 
 import (
 	"fmt"
-	"example.com/hello/dog"
+	"github.com/danielkang674/golang-basics-todd/dog"
 )
 
 func main() {
 	fmt.Println("hello")
 	 
-	y := Years(7)
+	y := dog.Years(7)
 
 	fmt.Println("Dog years", y)
 }
